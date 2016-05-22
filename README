@@ -1,0 +1,16 @@
+Chat v1.0
+Author: Anoop Yadav
+
+0. Compilation
+- Open up a terminal window. Unpack the tarball using tar -xvf <tar_name>. Now navigate to the directory where you unpacked. Type "make". This will generate an executable named "chat'.
+
+1. How to invoke the server?
+- Open up a terminal window on linux. Type "./chat" without the quotes and hit enter. The program will inform you of the IP address and port it is listening on.
+
+2. How to invoke the client?
+- Open a terminal window on linux. Type "./chat -p <port_number> -s <ip_address>" without the quotes and hit enter. Refer to question 1 on how to obtain the port and IP address. 
+
+Source Files Included: parser.c parser.h server.c server.h client.c client.h main.c constants.h
+
+Assumptions Made:
+- That the host machines are using IPv4. The program still works with IPv6, the sanity check will report and invalid IP though.
